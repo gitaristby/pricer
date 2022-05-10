@@ -1,8 +1,8 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Pricer",
   "author": "Hermes Conrad",
-  "version": "0.1",
+  "version": "0.1.1",
   "description": "Create new menu of recommended prices",
   "icons": {
     "48": "icons/company.png"
