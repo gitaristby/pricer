@@ -43,7 +43,7 @@ function createButtonActions() {
       button.addEventListener("click", (e) => {
          console.log(pricerParent)
          pricerParent.value = button.attributes.price.value
-         pricerParent.onchange()
+         pricerParent.dispatchEvent(new Event('change'))
       })
    }
 }
